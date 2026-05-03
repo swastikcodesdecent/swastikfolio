@@ -14,9 +14,9 @@
     --bg3: #181818;
     --surface: #1a1a1a;
     --border: #222222;
-    --mint: #00f5a0;
-    --mint-dim: #00c87a;
-    --mint-glow: rgba(0,245,160,0.15);
+    --mint: #ba3107;
+    --mint-dim: #8f2505;
+    --mint-glow: rgba(186,49,7,0.15);
     --white: #f0f0ee;
     --muted: #5a5a5a;
     --muted2: #3a3a3a;
@@ -48,7 +48,7 @@
     pointer-events: none;
     z-index: 0;
     transform: translate(-50%, -50%);
-    background: radial-gradient(circle, rgba(0,245,160,0.10) 0%, rgba(0,245,160,0.04) 35%, transparent 70%);
+    background: radial-gradient(circle, rgba(186,49,7,0.10) 0%, rgba(186,49,7,0.04) 35%, transparent 70%);
     transition: width 0.4s ease, height 0.4s ease, background 0.4s ease;
     mix-blend-mode: screen;
   }
@@ -134,7 +134,7 @@
     font-weight: 700;
     transition: transform 0.2s, box-shadow 0.2s;
   }
-  .btn-solid:hover { transform: scale(1.04); box-shadow: 0 0 28px rgba(0,245,160,0.35); }
+  .btn-solid:hover { transform: scale(1.04); box-shadow: 0 0 28px rgba(186,49,7,0.35); }
 
   /* HERO */
   .hero {
@@ -152,7 +152,7 @@
     position: absolute;
     bottom: -200px; right: -200px;
     width: 600px; height: 600px;
-    background: radial-gradient(circle, rgba(0,245,160,0.06) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(186,49,7,0.06) 0%, transparent 70%);
     pointer-events: none;
   }
 
@@ -177,8 +177,8 @@
     animation: pulse 2s infinite;
   }
   @keyframes pulse {
-    0%,100% { box-shadow: 0 0 0 0 rgba(0,245,160,0.5); }
-    50% { box-shadow: 0 0 0 6px rgba(0,245,160,0); }
+    0%,100% { box-shadow: 0 0 0 0 rgba(186,49,7,0.5); }
+    50% { box-shadow: 0 0 0 6px rgba(186,49,7,0); }
   }
 
   .hero-title {
@@ -226,7 +226,7 @@
     transition: transform 0.2s, box-shadow 0.3s;
     display: inline-block;
   }
-  .btn-hero:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0,245,160,0.3); }
+  .btn-hero:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(186,49,7,0.3); }
   .btn-ghost {
     font-family: var(--font-mono);
     font-size: 14px;
@@ -409,11 +409,11 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(0,245,160,0.04), transparent);
+    background: linear-gradient(135deg, rgba(186,49,7,0.04), transparent);
     opacity: 0;
     transition: opacity 0.3s;
   }
-  .aff-card:hover { border-color: rgba(0,245,160,0.3); transform: translateX(4px); }
+  .aff-card:hover { border-color: rgba(186,49,7,0.3); transform: translateX(4px); }
   .aff-card:hover::before { opacity: 1; }
   .aff-icon {
     width: 44px; height: 44px;
@@ -470,9 +470,9 @@
     transform-origin: left;
     transition: transform 0.4s ease;
   }
-  .edu-card:hover { border-color: rgba(0,245,160,0.2); transform: translateY(-4px); }
+  .edu-card:hover { border-color: rgba(186,49,7,0.2); transform: translateY(-4px); }
   .edu-card:hover::before { transform: scaleX(1); }
-  .edu-card.ongoing { border-color: rgba(0,245,160,0.25); }
+  .edu-card.ongoing { border-color: rgba(186,49,7,0.25); }
   .edu-card.ongoing::before { transform: scaleX(1); }
   .edu-tag {
     font-family: var(--font-mono);
@@ -534,7 +534,7 @@
     align-items: center;
     gap: 6px;
     background: rgba(0,245,160,0.1);
-    border: 1px solid rgba(0,245,160,0.25);
+    border: 1px solid rgba(186,49,7,0.25);
     color: var(--mint);
     font-family: var(--font-mono);
     font-size: 12px;
@@ -561,7 +561,7 @@
     transition: border-color 0.25s, color 0.25s, transform 0.25s;
     cursor: default;
   }
-  .skill-item:hover { border-color: rgba(0,245,160,0.25); color: var(--white); transform: translateY(-2px); }
+  .skill-item:hover { border-color: rgba(186,49,7,0.25); color: var(--white); transform: translateY(-2px); }
   .skill-icon { font-size: 18px; }
 
   /* PROJECTS / AFFILIATIONS SECTION */
@@ -586,11 +586,11 @@
     position: absolute;
     bottom: -60px; right: -60px;
     width: 180px; height: 180px;
-    background: radial-gradient(circle, rgba(0,245,160,0.07) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(186,49,7,0.07) 0%, transparent 70%);
     opacity: 0;
     transition: opacity 0.4s, transform 0.4s;
   }
-  .work-card:hover { border-color: rgba(0,245,160,0.3); transform: translateY(-6px); }
+  .work-card:hover { border-color: rgba(186,49,7,0.3); transform: translateY(-6px); }
   .work-card:hover::after { opacity: 1; transform: scale(1.2); }
   .work-number {
     font-family: var(--font-mono);
@@ -641,8 +641,8 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: rgba(0,245,160,0.08);
-    border: 1px solid rgba(0,245,160,0.2);
+    background: rgba(186,49,7,0.08);
+    border: 1px solid rgba(186,49,7,0.2);
     color: var(--mint);
     font-family: var(--font-mono);
     font-size: 10px;
@@ -690,7 +690,7 @@
     font-size: clamp(14px, 2.2vw, 20px);
     color: var(--mint);
     text-decoration: none;
-    border-bottom: 1px dashed rgba(0,245,160,0.35);
+    border-bottom: 1px dashed rgba(186,49,7,0.35);
     padding-bottom: 3px;
     letter-spacing: 0.02em;
     transition: color 0.2s, border-color 0.2s, text-shadow 0.2s;
@@ -698,7 +698,7 @@
   .contact-email-addr:hover {
     color: #fff;
     border-color: rgba(255,255,255,0.4);
-    text-shadow: 0 0 20px rgba(0,245,160,0.4);
+    text-shadow: 0 0 20px rgba(186,49,7,0.4);
   }
   .contact-btn {
     font-family: var(--font-mono);
@@ -713,7 +713,7 @@
     transition: transform 0.2s, box-shadow 0.3s;
     display: inline-block;
   }
-  .contact-btn:hover { transform: scale(1.04); box-shadow: 0 8px 40px rgba(0,245,160,0.35); }
+  .contact-btn:hover { transform: scale(1.04); box-shadow: 0 8px 40px rgba(186,49,7,0.35); }
 
   /* FOOTER */
   footer {
@@ -806,7 +806,7 @@
     overflow: hidden;
     transition: border-color 0.3s, color 0.3s;
   }
-  .oneliner-float:hover { border-color: rgba(0,245,160,0.25); color: var(--mint); }
+  .oneliner-float:hover { border-color: rgba(186,49,7,0.25); color: var(--mint); }
   .oneliner-float .ol-icon { font-size: 16px; flex-shrink: 0; }
   .oneliner-float .ol-quote { color: var(--text-secondary); font-style: italic; }
   .oneliner-float:hover .ol-quote { color: var(--mint); }
@@ -906,8 +906,8 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: rgba(0,245,160,0.06);
-    border: 1px solid rgba(0,245,160,0.15);
+    background: rgba(186,49,7,0.06);
+    border: 1px solid rgba(186,49,7,0.15);
     color: var(--mint);
     font-family: var(--font-mono);
     font-size: 11px;
@@ -919,7 +919,7 @@
     transition: opacity 0.3s, border-color 0.3s;
     cursor: default;
   }
-  .pill-liner:hover { opacity: 1; border-color: rgba(0,245,160,0.35); }
+  .pill-liner:hover { opacity: 1; border-color: rgba(186,49,7,0.35); }
 
   /* HOVER TOOLTIP ONE-LINER */
   [data-liner] { position: relative; }
@@ -943,44 +943,42 @@
     box-shadow: 0 8px 24px rgba(0,0,0,0.4);
   }
 
-  @media (max-width: 768px) {
-    .section-divider { padding: 24px 20px; }
-    .footer-quip { padding: 10px 20px 18px; font-size: 9px; }
-    .side-whisper { display: none; }
-    [data-liner]:hover::after { display: none; }
-  }
+  /* ── LARGE TABLET (max 1024px) ── */
   @media (max-width: 1024px) {
-    nav { padding: 20px 36px; }
-    .hero { padding: 110px 36px 80px; gap: 40px; }
+    nav { padding: 20px 32px; }
+    .hero { padding: 110px 32px 80px; gap: 40px; }
+    .hero-title { font-size: clamp(44px, 5.5vw, 72px); }
+    section { padding: 100px 32px; }
+    .contact { padding: 100px 32px; }
+    footer { padding: 28px 32px; }
+    .section-divider { padding: 28px 32px; }
+    .footer-quip { padding: 10px 32px 20px; }
+    .about-inner { gap: 48px; }
     .edu-grid { grid-template-columns: repeat(2, 1fr); }
     .skills-grid { grid-template-columns: repeat(3, 1fr); }
-    section { padding: 100px 36px; }
-    .contact { padding: 100px 36px; }
-    footer { padding: 28px 36px; }
-    .work-cards { gap: 20px; }
+    .work-cards { grid-template-columns: 1fr 1fr; gap: 20px; }
     .work-card { padding: 32px; }
-    .about-inner { gap: 48px; }
   }
 
   /* ── SMALL TABLET / LARGE MOBILE (max 768px) ── */
   @media (max-width: 768px) {
-    nav { padding: 18px 20px; }
+    nav { padding: 16px 20px; }
     .nav-links { display: none; }
     .nav-cta .btn-outline { display: none; }
+    .nav-cta .btn-solid { padding: 9px 16px; font-size: 12px; }
 
-    /* hamburger */
     .hamburger {
       display: flex;
+      flex-direction: column;
       gap: 5px;
       cursor: pointer;
-      padding: 4px;
+      padding: 6px;
       background: none;
       border: none;
     }
     .hamburger span {
       display: block;
-      width: 24px;
-      height: 2px;
+      width: 24px; height: 2px;
       background: var(--white);
       border-radius: 2px;
       transition: transform 0.3s, opacity 0.3s;
@@ -989,9 +987,9 @@
     .hamburger.open span:nth-child(2) { opacity: 0; }
     .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-    /* mobile nav drawer */
     .mobile-menu {
       display: flex;
+      flex-direction: column;
       position: fixed;
       inset: 0;
       background: rgba(10,10,10,0.97);
@@ -999,7 +997,7 @@
       z-index: 99;
       align-items: center;
       justify-content: center;
-      gap: 36px;
+      gap: 32px;
       opacity: 0;
       pointer-events: none;
       transition: opacity 0.35s ease;
@@ -1007,7 +1005,7 @@
     .mobile-menu.open { opacity: 1; pointer-events: all; }
     .mobile-menu a {
       font-family: var(--font-display);
-      font-size: 36px;
+      font-size: clamp(26px, 8vw, 38px);
       font-weight: 900;
       color: var(--white);
       text-decoration: none;
@@ -1016,71 +1014,140 @@
     }
     .mobile-menu a:hover { color: var(--mint); }
     .mobile-menu .menu-cta {
-      margin-top: 12px;
+      margin-top: 8px;
       font-family: var(--font-mono);
       font-size: 14px;
       background: var(--mint);
       color: var(--bg);
-      padding: 14px 32px;
+      padding: 13px 28px;
       border-radius: 100px;
       font-weight: 700;
     }
 
     .hero {
       grid-template-columns: 1fr;
-      padding: 96px 20px 60px;
+      padding: 100px 20px 60px;
       min-height: auto;
+      gap: 0;
     }
     .terminal-wrap { display: none; }
-    .hero-title { font-size: clamp(38px, 10vw, 54px); letter-spacing: -1.5px; }
-    .hero-desc { font-size: 15px; }
-    .hero-actions { flex-direction: column; align-items: flex-start; gap: 12px; }
-    .btn-hero, .btn-ghost { width: 100%; text-align: center; padding: 15px 24px; }
+    .hero-title { font-size: clamp(36px, 10vw, 54px); letter-spacing: -1.5px; }
+    .hero-desc { font-size: 15px; max-width: 100%; }
+    .hero-actions { flex-direction: column; align-items: stretch; gap: 12px; }
+    .btn-hero, .btn-ghost { width: 100%; text-align: center; padding: 15px 24px; display: block; }
     .scroll-hint { display: none; }
+    .oneliner { font-size: 11px; }
 
     section { padding: 72px 20px; }
     .contact { padding: 80px 20px; }
+    .section-title { font-size: clamp(30px, 7.5vw, 46px); }
+    .section-divider { padding: 20px 20px; }
+    .section-divider p { font-size: 12px; }
+    .footer-quip { padding: 10px 20px 18px; font-size: 9px; }
+    .side-whisper { display: none; }
+    [data-liner]:hover::after { display: none; }
 
     .about-inner { grid-template-columns: 1fr; gap: 40px; }
-    .section-title { font-size: clamp(30px, 7vw, 44px); }
 
     .edu-grid { grid-template-columns: 1fr; gap: 16px; }
     .edu-card { padding: 28px 24px; }
     .edu-score { font-size: 44px; }
+    .edu-class { font-size: 24px; }
 
     .skills-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
-    .skill-item { padding: 16px 16px; font-size: 12px; }
+    .skill-item { padding: 16px 14px; font-size: 12px; }
 
     .work-cards { grid-template-columns: 1fr; gap: 16px; }
     .work-card { padding: 28px 24px; }
     .work-title { font-size: 24px; }
+    .oneliner-float { font-size: 10px; padding: 14px 16px; }
 
-    footer {
-      flex-direction: column;
-      gap: 16px;
-      text-align: center;
-      padding: 28px 20px;
+    .contact-email-addr { font-size: clamp(13px, 3.5vw, 18px); word-break: break-all; }
+    .contact-actions { flex-direction: column; align-items: center; gap: 12px; }
+    .contact-btn { width: 100%; text-align: center; }
+    .contact-actions .btn-ghost {
+      width: 100% !important;
+      text-align: center !important;
+      padding: 15px 24px !important;
+      display: block !important;
+      box-sizing: border-box !important;
     }
+
+    footer { flex-direction: column; gap: 16px; text-align: center; padding: 28px 20px; }
     .footer-links { flex-wrap: wrap; justify-content: center; gap: 16px; }
+    footer .footer-links a { cursor: auto; }
   }
 
-  /* ── SMALL PHONES (max 420px) ── */
-  @media (max-width: 420px) {
-    .hero-title { font-size: 34px; letter-spacing: -1px; }
-    .hero-badge { font-size: 10px; }
-    .section-title { font-size: 28px; }
-    .btn-hero { font-size: 13px; }
-    .skills-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
-    .skill-item { padding: 14px 12px; font-size: 11px; gap: 8px; }
-    .skill-icon { font-size: 15px; }
+  /* ── SMALL PHONES (max 480px) ── */
+  @media (max-width: 480px) {
+    nav { padding: 14px 16px; }
+    .logo { font-size: 19px; }
+    .nav-cta .btn-solid { padding: 8px 14px; font-size: 11px; }
+
+    .hero { padding: 88px 16px 48px; }
+    .hero-title { font-size: clamp(30px, 11vw, 42px); letter-spacing: -1px; }
+    .hero-badge { font-size: 10px; letter-spacing: 0.08em; }
+    .hero-desc { font-size: 14px; line-height: 1.7; }
+
+    section { padding: 60px 16px; }
+    .contact { padding: 64px 16px; }
+    .section-title { font-size: clamp(24px, 8.5vw, 34px); letter-spacing: -0.5px; }
+    .section-label { font-size: 10px; }
+
+    .edu-card { padding: 24px 18px; }
+    .edu-class { font-size: 22px; }
     .edu-score { font-size: 38px; }
-    .work-card { padding: 24px 20px; }
-    .aff-card { padding: 14px 16px; }
-    .nav-cta .btn-solid { padding: 9px 16px; font-size: 12px; }
-    .contact-btn { font-size: 13px; padding: 14px 24px; }
-    .contact-actions { flex-direction: column; align-items: center; }
-    .contact-actions .btn-ghost { width: 100%; text-align: center; }
+
+    .skills-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+    .skill-item { padding: 14px 10px; font-size: 11px; gap: 8px; }
+    .skill-icon { font-size: 15px; }
+
+    .work-card { padding: 22px 18px; }
+    .work-title { font-size: 22px; }
+    .work-desc { font-size: 13.5px; }
+
+    .aff-card { padding: 14px 14px; }
+    .aff-info h4 { font-size: 13px; }
+
+    .contact-email-addr { font-size: 13px; }
+    .contact-btn { font-size: 13px; padding: 14px 20px; }
+
+    footer { padding: 24px 16px; }
     footer p { font-size: 10px; }
+    .footer-quip { font-size: 8.5px; padding: 8px 16px 16px; }
+
+    .pill-liner { font-size: 10px; padding: 6px 12px; }
+    .oneliner { font-size: 10px; }
+    .oneliner-center { font-size: 11px; }
+    .oneliner-float { font-size: 9.5px; }
+    .section-divider p { font-size: 11px; }
+  }
+
+  /* ── VERY SMALL PHONES (max 360px) ── */
+  @media (max-width: 360px) {
+    .hero-title { font-size: 27px; }
+    .section-title { font-size: 22px; }
+    .skills-grid { grid-template-columns: 1fr; }
+    .skill-item { padding: 13px 14px; }
+    .contact-email-addr { font-size: 12px; }
+    .mobile-menu a { font-size: 22px; }
+    .mobile-menu { gap: 20px; }
+    .work-title { font-size: 20px; }
+    .aff-card { flex-wrap: wrap; }
+  }
+
+  /* ── LANDSCAPE PHONES ── */
+  @media (max-height: 520px) and (orientation: landscape) {
+    .hero { padding: 80px 24px 40px; min-height: auto; }
+    .hero-title { font-size: clamp(26px, 6vw, 42px); margin-bottom: 16px; }
+    .hero-badge { margin-bottom: 14px; }
+    .hero-desc { margin-bottom: 20px; font-size: 14px; }
+    .hero-actions { flex-direction: row; flex-wrap: wrap; }
+    .btn-hero, .btn-ghost { width: auto; }
+    section { padding: 56px 28px; }
+    .contact { padding: 56px 28px; }
+    .mobile-menu { gap: 16px; overflow-y: auto; padding: 20px; }
+    .mobile-menu a { font-size: 20px; }
   }
 </style>
 </head>
@@ -1147,15 +1214,17 @@
         <div class="ln"><span class="ln-num">2</span><span class="ln-code"><span class="c-keyword">const</span> <span class="c-var">swastik</span> <span class="c-punct">= {</span></span></div>
         <div class="ln"><span class="ln-num">3</span><span class="ln-code">&nbsp;&nbsp;<span class="c-key">role</span><span class="c-punct">:</span> <span class="c-str">"Head of Frontend"</span><span class="c-punct">,</span></span></div>
         <div class="ln"><span class="ln-num">4</span><span class="ln-code">&nbsp;&nbsp;<span class="c-key">company</span><span class="c-punct">:</span> <span class="c-str">"VMC Tech India"</span><span class="c-punct">,</span></span></div>
-        <div class="ln"><span class="ln-num">5</span><span class="ln-code">&nbsp;&nbsp;<span class="c-key">stack</span><span class="c-punct">:</span> <span class="c-punct">[</span><span class="c-str">"HTML"</span><span class="c-punct">,</span> <span class="c-str">"CSS"</span><span class="c-punct">,</span> <span class="c-str">"JS"</span><span class="c-punct">,</span> <span class="c-str">"React"</span><span class="c-punct">],</span></span></div>
-        <div class="ln"><span class="ln-num">6</span><span class="ln-code">&nbsp;&nbsp;<span class="c-key">class</span><span class="c-punct">:</span> <span class="c-str">"12th (Ongoing)"</span><span class="c-punct">,</span></span></div>
-        <div class="ln"><span class="ln-num">7</span><span class="ln-code">&nbsp;&nbsp;<span class="c-key">brands</span><span class="c-punct">:</span> <span class="c-punct">[</span><span class="c-str">"HypeVault"</span><span class="c-punct">],</span></span></div>
-        <div class="ln"><span class="ln-num">8</span><span class="ln-code">&nbsp;&nbsp;<span class="c-key">motto</span><span class="c-punct">:</span> <span class="c-str">"Build clean. Ship fast."</span></span></div>
-        <div class="ln"><span class="ln-num">9</span><span class="ln-code"><span class="c-punct">};</span></span></div>
-        <div class="ln"><span class="ln-num">10</span><span class="ln-code"></span></div>
-        <div class="ln"><span class="ln-num">11</span><span class="ln-code c-comment">// ready to build something?</span></div>
-        <div class="ln"><span class="ln-num">12</span><span class="ln-code"><span class="c-var">swastik</span><span class="c-punct">.</span><span class="c-method">startProject</span><span class="c-punct">(</span><span class="c-str">"yours"</span><span class="c-punct">);</span><span class="cursor-blink"></span></span></div>
-        <div class="ln"><span class="ln-num">13</span><span class="ln-code c-comment">// Warning: may cause uncontrollable urge to hire me</span></div>
+        <div class="ln"><span class="ln-num">5</span><span class="ln-code">&nbsp;&nbsp;<span class="c-key">role2</span><span class="c-punct">:</span> <span class="c-str">"Co-Founder"</span><span class="c-punct">,</span></span></div>
+        <div class="ln"><span class="ln-num">6</span><span class="ln-code">&nbsp;&nbsp;<span class="c-key">company2</span><span class="c-punct">:</span> <span class="c-str">"Encrypted Armour"</span><span class="c-punct">,</span></span></div>
+        <div class="ln"><span class="ln-num">7</span><span class="ln-code">&nbsp;&nbsp;<span class="c-key">stack</span><span class="c-punct">:</span> <span class="c-punct">[</span><span class="c-str">"HTML"</span><span class="c-punct">,</span> <span class="c-str">"CSS"</span><span class="c-punct">,</span> <span class="c-str">"JS"</span><span class="c-punct">,</span> <span class="c-str">"React"</span><span class="c-punct">],</span></span></div>
+        <div class="ln"><span class="ln-num">8</span><span class="ln-code">&nbsp;&nbsp;<span class="c-key">class</span><span class="c-punct">:</span> <span class="c-str">"12th (Ongoing)"</span><span class="c-punct">,</span></span></div>
+        <div class="ln"><span class="ln-num">9</span><span class="ln-code">&nbsp;&nbsp;<span class="c-key">brands</span><span class="c-punct">:</span> <span class="c-punct">[</span><span class="c-str">"HypeVault"</span><span class="c-punct">,</span> <span class="c-str">"Encrypted Armour"</span><span class="c-punct">],</span></span></div>
+        <div class="ln"><span class="ln-num">10</span><span class="ln-code">&nbsp;&nbsp;<span class="c-key">motto</span><span class="c-punct">:</span> <span class="c-str">"Build clean. Ship fast."</span></span></div>
+        <div class="ln"><span class="ln-num">11</span><span class="ln-code"><span class="c-punct">};</span></span></div>
+        <div class="ln"><span class="ln-num">12</span><span class="ln-code"></span></div>
+        <div class="ln"><span class="ln-num">13</span><span class="ln-code c-comment">// ready to build something?</span></div>
+        <div class="ln"><span class="ln-num">14</span><span class="ln-code"><span class="c-var">swastik</span><span class="c-punct">.</span><span class="c-method">startProject</span><span class="c-punct">(</span><span class="c-str">"yours"</span><span class="c-punct">);</span><span class="cursor-blink"></span></span></div>
+        <div class="ln"><span class="ln-num">15</span><span class="ln-code c-comment">// Warning: may cause uncontrollable urge to hire me</span></div>
       </div>
     </div>
   </div>
@@ -1231,6 +1300,14 @@
           <div class="aff-info">
             <h4>HypeVault Clothing</h4>
             <p>Co-founder · Launching Soon</p>
+          </div>
+          <div class="aff-arrow">→</div>
+        </a>
+        <a href="coming-soon.html" target="_blank" class="aff-card">
+          <div class="aff-icon">🔐</div>
+          <div class="aff-info">
+            <h4>Encrypted Armour</h4>
+            <p>Co-Founder · Building Something Big</p>
           </div>
           <div class="aff-arrow">→</div>
         </a>
@@ -1334,6 +1411,20 @@
         </div>
         <div class="work-cta">Explore Brand →</div>
       </a>
+      <a href="coming-soon.html" target="_blank" class="work-card reveal reveal-delay-4">
+        <div class="work-number">
+          <span>03</span>
+          <span class="work-status soon">◐ Coming Soon</span>
+        </div>
+        <div class="work-type">Security Brand · Co-Founder</div>
+        <div class="work-title">Encrypted Armour</div>
+        <div class="work-desc">
+          Co-founding Encrypted Armour — a brand rooted in security, identity, and
+          digital culture. Building something real at the intersection of protection
+          and authenticity. The launch is close.
+        </div>
+        <div class="work-cta">See What's Coming →</div>
+      </a>
     </div>
     <div class="oneliner-float reveal reveal-delay-4">
       <span class="ol-icon">💬</span>
@@ -1408,12 +1499,12 @@
     el.addEventListener('mouseenter', () => {
       glow.style.width = '480px';
       glow.style.height = '480px';
-      glow.style.background = 'radial-gradient(circle, rgba(0,245,160,0.18) 0%, rgba(0,245,160,0.07) 35%, transparent 70%)';
+      glow.style.background = 'radial-gradient(circle, rgba(186,49,7,0.18) 0%, rgba(186,49,7,0.07) 35%, transparent 70%)';
     });
     el.addEventListener('mouseleave', () => {
       glow.style.width = '320px';
       glow.style.height = '320px';
-      glow.style.background = 'radial-gradient(circle, rgba(0,245,160,0.10) 0%, rgba(0,245,160,0.04) 35%, transparent 70%)';
+      glow.style.background = 'radial-gradient(circle, rgba(186,49,7,0.10) 0%, rgba(186,49,7,0.04) 35%, transparent 70%)';
     });
   });
 
